@@ -1,0 +1,32 @@
+Large screens       lg
+medium screens      md
+small screens       sm
+Extra small screens xs
+
+
+
+col-lg-4
+
+grid-system = 12 unit
+
+col = column
+lg = large
+4 = 4 of 12 of the grid-system
+
+hidden // hide
+visible // show
+
+hidden-(screen name) // hidden-sm
+visible-(screen name)-(block / inline / inline-block) // visible-md-block
+
+col-sm-offset-2 // space at left
+
+col-lg-push-8 // go to right 8
+
+col-lg-pull-4 // go to left 4 
+
+img-responsive // make the image responsive with respect to the grid system that you give it
+
+center-block // make the image in the center (it has margin-right:auto and the margin-left:auto)
+
+lead // it is given to the paragraph that is near the image to make it good with respect to the image
