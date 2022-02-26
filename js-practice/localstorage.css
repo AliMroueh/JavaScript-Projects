@@ -1,0 +1,97 @@
+*{
+    box-sizing: border-box;
+}
+
+body{
+    font-family: 'Open Sans' , sans-serif;
+    font-size: 18px;
+}
+
+.container{
+    margin: 20px 20px;
+}
+
+.container h3{
+    color: red;
+    margin: 50px auto;
+}
+
+.container div{
+    background-color: red;
+    color: white;
+    margin: 50px auto;
+    padding: 20px;
+}
+
+.container ul{
+    list-style: none;
+    text-align: center;
+}
+
+.container .color-switcher li{
+    width: 20px;
+    height: 20px;
+    display: inline-block;
+    cursor: pointer;
+}
+
+.container .color-switcher li:first-child{
+    background-color: red;
+}
+.container .color-switcher li:nth-child(2){
+    background-color: green;
+}
+.container .color-switcher li:nth-child(3){
+    background-color: purple;
+}
+.container .color-switcher li:nth-child(4){
+    background-color: black;
+}
+
+.red .container h3{
+    color: red;
+    margin: 50px auto;
+}
+
+.red .container div{
+    background-color: red;
+    color: white;
+    margin: 50px auto;
+    padding: 20px;
+}
+
+.green .container h3{
+    color: green;
+    margin: 50px auto;
+}
+
+.green .container div{
+    background-color: green;
+    color: white;
+    margin: 50px auto;
+    padding: 20px;
+}
+
+.purple .container h3{
+    color: purple;
+    margin: 50px auto;
+}
+
+.purple .container div{
+    background-color: purple;
+    color: white;
+    margin: 50px auto;
+    padding: 20px;
+}
+
+.black .container h3{
+    color: black;
+    margin: 50px auto;
+}
+
+.black .container div{
+    background-color: black;
+    color: white;
+    margin: 50px auto;
+    padding: 20px;
+}
